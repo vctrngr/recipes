@@ -1,0 +1,35 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.homepage-img{
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.maintext{
+    max-width: 90%;
+}
+
+.minibutton{
+    font-size: smaller;
+    background-color: rgb(222, 214, 214);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 8px;
+}
+
+.minibutton:hover{
+    background-color: antiquewhite;
+}
