@@ -19,7 +19,8 @@ h1 {
 }
 
 .maintext{
-    max-width: 90%;
+    /* max-width: 90%; */
+    text-align: justify;
 }
 
 .minibutton{
@@ -28,8 +29,18 @@ h1 {
     border-radius: 5px;
     width: fit-content;
     padding: 8px;
+    
 }
 
 .minibutton:hover{
     background-color: antiquewhite;
+}
+
+.minibutton a{
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-list{
+    list-style-type: none;
 }
