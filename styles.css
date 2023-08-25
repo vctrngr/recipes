@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.homepage-img:hover {
+    filter:invert(1);
+}
+
 h1 {
     text-align: center;
 }
@@ -46,7 +50,7 @@ h1 {
 }
 
 .recipe-list{
-    list-style-type: none;
+    list-style-type: kannada;
 }
 
 .recipe-list a {
@@ -68,15 +72,12 @@ h1 {
     border-radius: 5px;
     margin: 40px 4px;
     box-sizing: border-box;
-    /* padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px; */
-    padding: 20px 10px;
+    padding: 15px 15px;
     width: max-content;
 }
 
 .ingredients h3 {
-    margin: 0;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -86,4 +87,15 @@ h1 {
 
 .ingredients ul li {
     list-style-type: kannada;
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.quote .name {
+    font-style: normal;
+    text-align: right;
 }
