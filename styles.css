@@ -1,10 +1,12 @@
 * {
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    /* margin-left: 10px; */
 }
 
 .subtitle {
     font-style: italic;
     font-size: smaller;
+    text-align: center;
 }
 
 .homepage-img{
@@ -21,6 +23,7 @@ h1 {
 .maintext{
     /* max-width: 90%; */
     text-align: justify;
+    font-size: 15px;
 }
 
 .minibutton{
@@ -29,6 +32,7 @@ h1 {
     border-radius: 5px;
     width: fit-content;
     padding: 8px;
+    margin: 0 auto;
     
 }
 
@@ -43,4 +47,43 @@ h1 {
 
 .recipe-list{
     list-style-type: none;
+}
+
+.recipe-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 3px 8px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.recipe-list a:hover {
+    text-decoration: none;
+    color: rgb(206, 173, 173);
+    background-color: rgb(142, 69, 69);
+}
+
+.ingredients {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 40px 4px;
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px; */
+    padding: 20px 10px;
+    width: max-content;
+}
+
+.ingredients h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.ingredients ul {
+    margin-bottom: 0;
+}
+
+.ingredients ul li {
+    list-style-type: kannada;
 }
